@@ -1,0 +1,11 @@
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <short-name>mytags</short-name>
+  <uri>/WEB-INF/mytags.tld</uri>
+
+  <tag>
+    <name>hello</name>
+    <tag-class>mytags.HelloTag</tag-class>
+    <body-content>empty</body-content>
+  </tag>
+</taglib>
