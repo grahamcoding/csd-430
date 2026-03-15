@@ -1,0 +1,56 @@
+HTML Example (Semantic Structure)
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example Page</title>
+</head>
+<body>
+    <header>
+        <h1>Company Portal</h1>
+    </header>
+
+    <main>
+        <p>Welcome to the internal portal.</p>
+    </main>
+</body>
+</html>
+
+
+CSS Example (Consistent Naming and Indentation)
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.main-container {
+    width: 80%;
+    margin: auto;
+}
+
+
+Java Example (Naming Conventions)
+
+public class UserAccount {
+
+    private String username;
+
+    public UserAccount(String username) {
+        this.username = username;
+    }
+
+    public void displayUser() {
+        System.out.println("User: " + username);
+    }
+}
+
+
+JavaScript Example (Consistent Variable Naming)
+
+function calculateTotal(price, taxRate) {
+    const taxAmount = price * taxRate;
+    return price + taxAmount;
+}
+
+console.log(calculateTotal(100, 0.07));
